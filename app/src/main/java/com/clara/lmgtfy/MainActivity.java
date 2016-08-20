@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
 		//Get references to widgets - the Button, EditText and show_search_text TextViww
 		Button webSearchButton = (Button) findViewById(R.id.google_search_button);
+		// Any widgets you refer to from within an event handler must be declared final
 		final EditText webSearchBox = (EditText) findViewById(R.id.google_search_box);
 		final TextView confirmSearchText = (TextView) findViewById(R.id.show_search_text);
 
